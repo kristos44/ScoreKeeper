@@ -5,7 +5,7 @@
     <string name="goals_text_view">Goals</string>
     <string name="fouls_text_view">Fouls</string>
     <string name="corners_text_view">Corners</string>
-    <string name="score_initial">0</string>
+    <string name="score_initial" translatable="false">0</string>
     <string name="goal_text">Goal</string>
     <string name="foul_text">Foul</string>
     <string name="corner_text">Corner</string>

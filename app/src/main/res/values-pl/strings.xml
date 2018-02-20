@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FootballScores</string>
+    <string name="team_a_name">Drużyna A</string>
+    <string name="team_b_name">Drużyna B</string>
+    <string name="goals_text_view">Gole</string>
+    <string name="fouls_text_view">Faule</string>
+    <string name="corners_text_view">Rożne</string>
+    <string name="goal_text">Gol</string>
+    <string name="foul_text">Faul</string>
+    <string name="corner_text">Rożny</string>
+    <string name="reset_text">Reset</string>
+</resources>
