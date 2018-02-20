@@ -40,7 +40,7 @@
                     android:fontFamily="sans-serif"
                     android:gravity="center_horizontal"
                     android:padding="@dimen/textview_padding"
-                    android:text="Goals"
+                    android:text="@string/goals_text_view"
                     android:textColor="@color/primaryTextColor"
                     android:textSize="@dimen/header_small_text_size" />
 
@@ -65,7 +65,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif"
                         android:gravity="center_horizontal"
-                        android:text="Fouls"
+                        android:text="@string/fouls_text_view"
                         android:textColor="@color/primaryTextColor"
                         android:textSize="@dimen/header_small_text_size"
                         android:layout_weight="1" />
@@ -75,7 +75,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif"
                         android:gravity="center_horizontal"
-                        android:text="Corners"
+                        android:text="@string/corners_text_view"
                         android:textColor="@color/primaryTextColor"
                         android:textSize="@dimen/header_small_text_size"
                         android:layout_weight="1" />

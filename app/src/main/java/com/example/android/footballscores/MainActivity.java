@@ -37,12 +37,19 @@ public class MainActivity extends AppCompatActivity {
     public void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
 
-        displayForTeamAGoal(savedInstanceState.getInt("scoreTeamA"));
-        displayForTeamBGoal(savedInstanceState.getInt("scoreTeamB"));
-        displayForTeamAFoul(savedInstanceState.getInt("foulTeamA"));
-        displayForTeamBFoul(savedInstanceState.getInt("foulTeamB"));
-        displayForTeamACorner(savedInstanceState.getInt("cornerTeamA"));
-        displayForTeamBCorner(savedInstanceState.getInt("cornerTeamB"));
+        scoreTeamA = savedInstanceState.getInt("scoreTeamA");
+        scoreTeamB = savedInstanceState.getInt("scoreTeamB");
+        foulTeamA = savedInstanceState.getInt("foulTeamA");
+        foulTeamB = savedInstanceState.getInt("foulTeamB");
+        cornerTeamA = savedInstanceState.getInt("cornerTeamA");
+        cornerTeamB = savedInstanceState.getInt("cornerTeamB");
+
+        displayForTeamAGoal(scoreTeamA);
+        displayForTeamBGoal(scoreTeamB);
+        displayForTeamAFoul(foulTeamA);
+        displayForTeamBFoul(foulTeamB);
+        displayForTeamACorner(cornerTeamA);
+        displayForTeamBCorner(cornerTeamB);
     }
 
     /**
